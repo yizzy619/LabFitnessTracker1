@@ -32,22 +32,22 @@ public class Main{
 
     Scanner input = new Scanner(System.in);
 
-    RunningWorkout workout =new RunningWorkout();
+    RunningWorkout r =new RunningWorkout();
 
             System.out.print("Enter workout type: ");
-                workout.type =input.nextLine();
+            r.type =input.nextLine();
 
             System.out.print("Enter duration in minutes: ");
-                workout.distance =input.nextInt();
+            r.duration =input.nextInt();
 
             System.out.print("Enter distance in KM: ");
-                workout.distance =input.nextDouble();
+            r.distance =input.nextDouble();
 
-            System.out.println("=== Workout Detials ===");
+            System.out.println("=== Workout Details ===");
 
-                workout.showDetails();
+            r.showDetails();
 
-                input.close();
+            input.close();
 
     }
 }
