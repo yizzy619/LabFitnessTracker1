@@ -17,3 +17,7 @@ copy and paste code to idei, answer the requests.
 ## Author
 
 Yasel Rodriguez
+
+## Code Review
+- **Reviewed by:** [Zero Moore]
+- **Status:** Almost everything worked correctly. When showDetails() executes, the output for duration is as follows: "Duration: 0 minutes". I also noticed you spelled "Details" wrong in line 46: "System.out.println("=== Workout Detials ===");".
